@@ -21,7 +21,7 @@ body{
     transform:translate(-50%,-50%);
     background-position:50% 50%;
     z-index:1;
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 .front:hover{
     box-shadow:0 0 20px rgba(255,255,255,0.5);
