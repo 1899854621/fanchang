@@ -36,7 +36,7 @@ function findIndex() {
     const currentTime = doms.audio.currentTime;
     for(let i = 0; i < data.length; i++) {
         if(data[i].time > currentTime) {
-            return i - 1;
+            return i - 3;
         }
     }
 
@@ -85,5 +85,6 @@ function setOffset() {
 
     doms.ul.children[currentIndex].classList.add("active");
 }
+
 
 doms.audio.addEventListener("timeupdate", setOffset);
